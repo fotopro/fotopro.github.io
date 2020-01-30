@@ -128,10 +128,11 @@ footer{
 
 
   .container{overflow-x: hidden;
-    width:350px;
-    margin-left:-5px;
+    width:100%;
+    max-width:390px;
+    margin:0 auto;
     height:950px;
-    padding-left:36px;
+    padding:0;
 }
 h1{
   font-size:35px;
@@ -143,11 +144,13 @@ p{
 
   font-size:20px;
   width:400px;
-  margin-left:-25px;
+  margin:0 auto;
+  width:100%;
+  max-width:370px;
 }
 video{
   width:350px;
-  margin-left:-18px;
+  margin:0 auto;
   padding:30px 17.5px 30px 17.5px;
 }
 button{width:307px;
