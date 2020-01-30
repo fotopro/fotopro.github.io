@@ -153,6 +153,11 @@ video{
   margin:0 auto;
   padding:30px 17.5px 30px 17.5px;
 }
+
+fieldset{
+  width:307px;
+}
+
 button{width:307px;
 
 
