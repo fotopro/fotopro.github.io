@@ -1,0 +1,147 @@
+body{font-family:sans-serif;
+  margin:0;
+  background:url(https://wallpapershome.ru/images/wallpapers/kosmos-5120x2880-kosmos-17861.jpg)center no-repeat;
+  background-size:cover;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-attachment: fixed;
+}
+
+.container{  margin:0 auto;
+  width:100%;
+  max-width:700px;
+  text-align:center;  
+  background-color:rgba(0,0,0,0.8);
+  padding:0 30px;
+}
+h1{font-size:30px;
+  color:white;
+  font-weight:400;
+  }
+h1>span{
+  font-size:30px;
+  font-weight:800;
+  text-transform:uppercase;
+  
+}
+fieldset{width:100%;
+  max-width:600px;
+  height:100%;
+  min-height:35px;
+  margin:0 auto;
+  border:1.5px solid rgba(31,31,31);
+  padding:10px 0;
+  background-color:rgba(255,255,255,0.2);
+
+}
+#email{vertical-align:center;
+  background:none;
+  border:none;
+  text-align:center;
+  font-size:30px;
+  padding-bottom:5px;
+  width:300px;
+  display:inline-block;  
+ }
+
+::placeholder{
+  color:white;
+  }
+
+
+
+video{
+  z-index:1;
+  padding:5%;
+}
+video:focus{
+    outline-width: 0;
+}
+
+
+button{display:inline-block;
+  width:100%;
+  max-width:600px;
+  height:100%;
+  min-height:35px;
+  
+  margin:5% auto;
+  border:1.5px solid rgba(31,31,31);
+  padding:10px 0;
+  background-color:rgba(221,83,27);
+  border-radius:7px;  
+    text-align:center;
+  font-size:30px;
+  color:white;
+}
+input[type=email]:focus{
+  outline:none;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+input:focus~.gh{
+  height:52px;
+  margin-top:-50px;
+  
+  border:2px solid #196ad8;
+  margin-bottom:-10px;
+  padding-bottom:4px;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+
+p{
+  padding-top:10px;
+  font-size:19px;
+color:white;
+  font-weight:400;
+  line-height:1.3em;
+}
+span{
+  
+color:white;
+  font-weight:800;  
+}
+
+footer{
+  margin-top:15%;
+  color:white;
+  padding:30px 0 10px 0;
+}
+
+/*---------------------------media---------------------*/
+@media (max-width:420px){
+  .container{overflow-x: hidden;
+    width:350px;
+    margin-left:-5px;
+    height:950px;
+    padding-left:36px;
+}
+h1{
+  font-size:35px;
+  margin-right:30px;
+
+}
+
+p{
+
+  font-size:20px;
+  width:400px;
+}
+video{
+  width:350px;
+  margin-left:-45px;
+}
+button{width:403px;
+
+}
+form{
+  margin-left:-1px;
+  width:400px;
+}
+footer{
+  margin-top:200px;
+  margin-left:-40px;
+}
+}
