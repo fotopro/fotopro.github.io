@@ -87,6 +87,11 @@ button{display:inline-block;
   font-size:30px;
   color:white;
 }
+button:focus{
+  outline:none;
+}
+  
+
 input[type=email]:focus{
   outline:none;
 }
