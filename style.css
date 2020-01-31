@@ -12,7 +12,7 @@ body{font-family:sans-serif;
   max-width:700px;
   text-align:center;  
   background-color:rgba(0,0,0,0.8);
-  padding:0 30px;
+  padding:0 30px 300px;
 
 }
 h1{font-size:30px;
@@ -107,6 +107,8 @@ color:white;
 }
 
 footer{
+  position:absolute;
+  left:43%;
   margin-top:15%;
   color:white;
   padding:30px 0 10px 0;
