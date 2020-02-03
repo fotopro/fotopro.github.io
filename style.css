@@ -47,6 +47,18 @@ fieldset{width:100%;
   background-color:rgba(255,255,255,0.2);
 
 }
+#name{
+  vertical-align:center;
+  background:none;
+  border:none;
+  text-align:center;
+  font-size:30px;
+  padding-bottom:5px;
+  width:300px;
+  display:inline-block;  
+ }
+
+}
 #email{vertical-align:center;
   background:none;
   border:none;
@@ -91,6 +103,19 @@ button:focus{
   outline:none;
 }
   
+input[type=text]:focus{
+  outline:none;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+input:focus~.gh{
+  height:52px;
+  margin-top:-50px;
+  
+  border:2px solid #196ad8;
+  margin-bottom:-10px;
+  padding-bottom:4px;
+}
 
 input[type=email]:focus{
   outline:none;
