@@ -68,6 +68,15 @@ fieldset{width:100%;
   width:300px;
   display:inline-block;  
  }
+#name{vertical-align:center;
+  background:none;
+  border:none;
+  text-align:center;
+  font-size:30px;
+  padding-bottom:5px;
+  width:300px;
+  display:inline-block;  
+ }
 
 ::placeholder{
   color:white;
